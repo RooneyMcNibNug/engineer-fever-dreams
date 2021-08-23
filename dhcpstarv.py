@@ -3,7 +3,7 @@
 ## Most easily achieved with a quick python script like the below
 ## Will allocate as many of the IP addresses as possible (available) from the
 ## target DHCP server to random MAC address until the pool of IPs is exhausted
-## so that no other devices on the network will be able to receive an IP address
+## so that no new devices on the network will be able to receive an IP address
 
 from scapy.all import *
 
